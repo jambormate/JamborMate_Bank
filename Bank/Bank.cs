@@ -52,7 +52,7 @@ namespace Bank
 			{
 				if (account is CreditAccount)
 				{
-					osszeg += (account as CreditAccount).Creditlimit 
+					osszeg += (account as CreditAccount).Creditlimit;
 				}
 			}
 			return osszeg;
