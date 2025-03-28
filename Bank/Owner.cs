@@ -7,13 +7,7 @@ using System.Threading.Tasks;
 namespace Bank
 {
 	internal sealed class Owner
-	{
-		string name;
-
-		public Owner(string name)
-		{
-			this.name = name;
-		}	
-		public string Name { get => name; set => name = value; }
+	{	
+		public String Name { get; set; }
 	}
 }
