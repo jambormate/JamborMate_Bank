@@ -10,7 +10,7 @@ namespace Bank
 	{
 		double creditlimit;
 
-		public double Creditlimit { get; }
+		public double Creditlimit { get => Creditlimit; }
 		public CreditAccount(Owner owner, double creditlimit) : base(owner)
 		{
 			this.creditlimit = creditlimit;

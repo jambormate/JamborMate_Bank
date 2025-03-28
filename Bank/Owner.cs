@@ -8,6 +8,6 @@ namespace Bank
 {
 	internal sealed class Owner
 	{	
-		public String Name { get; set; }
+		public string Name { get; set; }
 	}
 }
